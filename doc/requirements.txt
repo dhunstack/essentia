@@ -1,0 +1,7 @@
+sphinx
+pyparsing
+sphinxcontrib-doxylink
+docutils
+jupyter
+sphinx-toolbox
+nbformat
