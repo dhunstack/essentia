@@ -178,8 +178,8 @@ html_additional_pages = {'index': 'index.html',
                          'applications': 'applications.html',
                          'documentation': 'documentation.html'}
 
-exec(compile(open("essentia_reference.py").read(), "essentia_reference.py", 'exec'))
-html_additional_pages.update(essentia_algorithms)
+# exec(compile(open("essentia_reference.py").read(), "essentia_reference.py", 'exec'))
+# html_additional_pages.update(essentia_algorithms)
 
 # If false, no module index is generated.
 #html_domain_indices = True
