@@ -5,3 +5,4 @@ docutils
 jupyter
 sphinx-toolbox
 nbformat
+sphinx-rtd-theme
