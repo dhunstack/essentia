@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Essentia'
+copyright = '2024, Essentia'
+author = 'MTG'
 
-release = '0.1'
-version = '0.1.0'
+release = '2.1-beta6-dev'
+version = '2.1-beta6-dev'
 
 # -- General configuration
 
@@ -33,3 +33,27 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# Sidebar templates
+html_sidebars = {
+    'index': [],
+    '**': [
+        'about.html',
+        'localtoc.html',
+        'navigation.html',
+        'relations.html',
+        'searchbox.html',
+    ]
+}
+
+# Additional templates that should be rendered to pages, maps page names to
+# template names.
+html_additional_pages = {
+                         'algorithms_reference': 'algorithms_reference.html',
+                         'applications': 'applications.html',
+                         'documentation': 'documentation.html'}
+
+
+# exec(compile(open("essentia_reference.py").read(), "essentia_reference.py", 'exec'))
+# html_additional_pages.update(essentia_algorithms)
+
